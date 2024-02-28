@@ -5,7 +5,7 @@ on:
   pull_request:
     types: [ closed ]
     branches:
-      - test2
+      - main
     paths:
       - 'force-app/**'
 jobs:
